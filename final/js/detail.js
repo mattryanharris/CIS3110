@@ -6,12 +6,8 @@ $( document ).ready(function() {
 	var imgUrl3 = getCookie("imgUrl3");
 	var imgUrl4 = getCookie("imgUrl4");
 	var imgUrl5 = getCookie("imgUrl5");
-	var imgUrl6 = getCookie("imgUrl6");
-	var imgUrl7 = getCookie("imgUrl7");
-	var imgUrl8 = getCookie("imgUrl8");
-	var imgUrl9 = getCookie("imgUrl9");
 	
-	var cImgUrls = [imgUrl0, imgUrl1, imgUrl2, imgUrl3, imgUrl4, imgUrl5, imgUrl6, imgUrl7, imgUrl8, imgUrl9];
+	var cImgUrls = [imgUrl0, imgUrl1, imgUrl2, imgUrl3, imgUrl4, imgUrl5];
 	
 	$(".fa-thumbs-up").hide();
 	

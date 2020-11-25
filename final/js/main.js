@@ -27,7 +27,8 @@
 
   for(let i = 0; i < 6; i++) {
     document.getElementById("col").innerHTML += "<div class='col-md-4'>" +
-                                                "<div class='card mb-4 shadow-sm'>" + 
+                                                "<div class='card mb-4 shadow-sm'>" +
+                                                "<a href='detail.html?img="+decodeURIComponent(data.imageURLs[i])+"&caption="+decodeURIComponent(data.captions[i])+"&description="+decodeURIComponent(data.descriptions[i])+"'>" +  
                                                 "<img src='"+data.imageURLs[i]+"' style='height:320px'>" +
                                                   "<div class='card-body'>" +
                                                     "<p>"+data.captions[i]+"</p>" + 
@@ -39,6 +40,7 @@
                                                       "</div>" + 
                                                       "<small class='text-muted'>9 mins</small>" + 
                                                     "</div>" + 
+                                                  "</div>" +
                                                   "</div>" + 
                                                 "</div>" +
                                                 "</div>";
