@@ -1,0 +1,16 @@
+#header {
+	height:600px;
+	width: 100%;
+	background-size:cover;
+	background:url("../img/starship.png") no-repeat left;
+	position: relative;
+}
+
+#flight-booker {
+	background-color: white;
+	display: block;
+	padding:10px;
+	position: absolute;
+	top:50%;
+	left: 50%
+}
